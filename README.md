@@ -21,33 +21,18 @@ Secure Password Policies (uppercase, lowercase, number, special character)
 Bootstrap UI Integration for clean and responsive design
 
 🛠️ Technologies Used
-Technology	Purpose
-ASP.NET Core MVC	Web application framework
-Entity Framework Core	ORM for database operations
-SQL Server	Relational database
-ASP.NET Identity	Authentication & role-based authorization
-Bootstrap	UI styling
-📁 Folder Structure Highlights
-Controllers/ – Role-protected endpoints
 
-Models/ – User and role entities
+ASP.NET Core MVC	
 
-Views/ – Razor views with conditional UI rendering
+Entity Framework Core	
 
-Data/ – DbContext and Identity configuration
+SQL Server
 
-Program.cs – Role seeding and middleware setup
+ASP.NET Identity	
 
-🔒 Authorization Examples
-csharp
-[Authorize(Roles = "Admin")]
-public class AdminController : Controller
-{
-    public IActionResult Dashboard() => View();
-}
+Bootstrap
 
-[Authorize(Roles = "Admin,Manager")]
-public IActionResult ManageUsers() => View();
+
 🧪 Testing & Validation
 Role-based access tested via controller and action-level restrictions
 
