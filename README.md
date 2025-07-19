@@ -1,4 +1,5 @@
 🔐 Project Title: Role-Based Authentication & Authorization System in ASP.NET Core MVC
+
 🧩 Description
 This project demonstrates a secure and scalable implementation of role-based authentication and authorization using ASP.NET Core MVC and Identity Framework. It enables user registration, login, and access control based on predefined roles such as Admin, Manager, and User.
 
